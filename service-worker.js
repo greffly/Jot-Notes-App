@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Jot-Notes-App/precache-manifest.96f402dc44fb988de70ac6a0499eb35f.js"
+  "https://greffly.github.io/Jot-Notes-App/precache-manifest.83f48c7fe72b9f32f8b691f933c16d1c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Jot-Notes-App/index.html", {
+workbox.routing.registerNavigationRoute("https://greffly.github.io/Jot-Notes-App/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
